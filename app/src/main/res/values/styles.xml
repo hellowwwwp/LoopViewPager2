@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyTabLayoutStyle" parent="Base.Widget.Design.TabLayout">
+        <item name="tabIndicator">@null</item>
+        <item name="tabPaddingStart">10dp</item>
+        <item name="tabPaddingEnd">10dp</item>
+        <!-- 设置 tab 的最小宽度为 0dp -->
+        <item name="tabMinWidth">0dp</item>
+    </style>
+
+</resources>

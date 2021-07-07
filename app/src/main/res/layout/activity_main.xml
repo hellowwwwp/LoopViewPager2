@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.loopviewpager2.LoopViewPager
+        android:id="@+id/lvp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tab_layout" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        style="@style/MyTabLayoutStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:tabMode="fixed" />
+
+</RelativeLayout>
